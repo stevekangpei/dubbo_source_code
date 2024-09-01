@@ -103,7 +103,7 @@ public class FailoverCluster implements Cluster {
 ```
 
 #### 说明：
-> 先获取最大的可调用次数 最大可重试次数 +1 
+> 先获取最大的可调用次数 最大可重试次数 +1
 > 第一次调用 （i= 0）从loadbalance 中选择一个，添加到invoked列表中。
 > 发起调用，如果是业务异常，直接抛出 如果是其他异常，封装为RpcException
 > 第二次调用的时候，通过invocation获取list。
