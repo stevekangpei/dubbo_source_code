@@ -1,6 +1,8 @@
 # dubbo源码-集群cluster-之StaticDirectory
 
-```实现 AbstractDirectory 抽象类，静态 Directory 实现类。逻辑比较简单，将传入的 invokers 集合，封装成静态的 Directory 对象。
+
+```
+实现 AbstractDirectory 抽象类，静态 Directory 实现类。逻辑比较简单，将传入的 invokers 集合，封装成静态的 Directory 对象。
 ```
 
 
