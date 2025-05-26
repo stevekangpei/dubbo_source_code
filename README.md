@@ -7,6 +7,36 @@ Dubbo源码详细解读
 ```
 
 
+## dubbo provider端暴露流程图
+![](assets/17482656964423.jpg)
+
+
+## dubbo consumer端引用流程图
+
+![](assets/17482657230930.jpg)
+
+
+## dubbo consumer端发起请求流程图
+![](assets/17482657682752.jpg)
+![](assets/17482657921127.jpg)
+
+
+## dubbo consumer端收到响应流程图
+
+![](assets/17482658345312.jpg)
+
+## Dubbo Provider端收到请求流程图
+
+![](assets/17482658653879.jpg)
+
+
+## Dubbo provider端返回响应流程图
+
+![](assets/17482658869982.jpg)
+
+
+
+
 ## 打断点 Debug 请求与响应截图版
 
 ### provider端（断点截图）
